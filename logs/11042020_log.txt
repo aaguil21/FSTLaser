@@ -1,0 +1,17 @@
+start 12637, stop = 12923, y = 165.50 mm, x  = 110 mm , tune = 51.50%, Event Range 0
+start 12946, stop = 13303, y = 165.49 mm, x  = 110 mm , tune = 51.50%, Event Range 1
+start 13331, stop = 13662, y = 165.48 mm, x  = 110 mm , tune = 51.50%, Event Range 2
+start 13683, stop = 14199, y = 165.47 mm, x  = 110 mm , tune = 51.50%, Event Range 3
+start 14216, stop = 14687, y = 165.46 mm, x  = 110 mm , tune = 51.50%, Event Range 4
+start 14704, stop = 15128, y = 165.45 mm, x  = 110 mm , tune = 51.50%, Event Range 5
+start 16010, stop = 16415, y = 165.44 mm, x  = 110 mm , tune = 51.50%, Event Range 6
+start 16432, stop = 16773, y = 165.43 mm, x  = 110 mm , tune = 51.50%, Event Range 7
+start 16823, stop = 17226, y = 165.42 mm, x  = 110 mm , tune = 51.50%, Event Range 8
+start 17239, stop = 17633, y = 165.41 mm, x  = 110 mm , tune = 51.50%, Event Range 9
+start 17650, stop = 17954, y = 165.40 mm, x  = 110 mm , tune = 51.50%, Event Range 10
+start 17971, stop = 18307, y = 165.39 mm, x  = 110 mm , tune = 51.50%, Event Range 11
+start 18342, stop = 18691, y = 165.38 mm, x  = 110 mm , tune = 51.50%, Event Range 12
+start 18710, stop = 19084, y = 165.37 mm, x  = 110 mm , tune = 51.50%, Event Range 13
+start 19107, stop = 19392, y = 165.36 mm, x  = 110 mm , tune = 51.50%, Event Range 14
+
+

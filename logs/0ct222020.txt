@@ -1,0 +1,4 @@
+start 22440, stop 23117, y = 98 mm, x  = 60 mm , tune = 51.50%
+start 23162, stop 23755, y = 100 mm, x = 60 mm
+start 23800, stop 24340, y = 98.5 mm, x = 60 mm
+start 24380, stop 25000, y = 99.5 mm, x = 60 mm

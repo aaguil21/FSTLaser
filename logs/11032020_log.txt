@@ -1,0 +1,25 @@
+start 11129, stop = 11739, y = 166.0 mm, x  = 110 mm , tune = 51.50%, Event Range 0
+start 11768, stop = 12134, y = 165.9 mm, x  = 110 mm , tune = 51.50%, Event Range 1
+start 12157, stop = 12432, y = 165.8 mm, x  = 110 mm , tune = 51.50%, Event Range 2
+start 12444, stop = 12805, y = 165.7 mm, x  = 110 mm , tune = 51.50%, Event Range 3
+start 12827, stop = 13218, y = 165.6 mm, x  = 110 mm , tune = 51.50%, Event Range 4
+start 13235, stop = 13628, y = 165.5 mm, x  = 110 mm , tune = 51.50%, Event Range 5
+start 13653, stop = 14127, y = 165.4 mm, x  = 110 mm , tune = 51.50%, Event Range 6
+start 14138, stop = 14476, y = 165.3 mm, x  = 110 mm , tune = 51.50%, Event Range 7
+start 14526, stop = 14848, y = 165.2 mm, x  = 110 mm , tune = 51.50%, Event Range 8
+start 14866, stop = 15090, y = 165.1 mm, x  = 110 mm , tune = 51.50%, Event Range 9
+start 15117, stop = 15449, y = 165.0 mm, x  = 110 mm , tune = 51.50%, Event Range 10
+start 15461, stop = 15739, y = 164.9 mm, x  = 110 mm , tune = 51.50%, Event Range 11
+start 15755, stop = 16133, y = 164.8 mm, x  = 110 mm , tune = 51.50%, Event Range 12
+start 16157, stop = 16424, y = 164.7 mm, x  = 110 mm , tune = 51.50%, Event Range 13
+start 16431, stop = 16732, y = 164.6 mm, x  = 110 mm , tune = 51.50%, Event Range 14
+start 16761, stop = 17146, y = 164.5 mm, x  = 110 mm , tune = 51.50%, Event Range 15
+start 17156, stop = 17576, y = 164.4 mm, x  = 110 mm , tune = 51.50%, Event Range 16
+start 18270, stop = 18556, y = 164.3 mm, x  = 110 mm , tune = 51.50%, Event Range 17
+start 18575, stop = 18846, y = 164.2 mm, x  = 110 mm , tune = 51.50%, Event Range 18
+start 18860, stop = 19349, y = 164.1 mm, x  = 110 mm , tune = 51.50%, Event Range 19
+start 19366, stop = 19766, y = 164.0 mm, x  = 110 mm , tune = 51.50%, Event Range 20
+start 19780, stop = 20181, y = 163.9 mm, x  = 110 mm , tune = 51.50%, Event Range 21
+start 20197, stop = 20510, y = 163.8 mm, x  = 110 mm , tune = 51.50%, Event Range 22
+start 20526, stop = 20947, y = 163.7 mm, x  = 110 mm , tune = 51.50%, Event Range 23
+
