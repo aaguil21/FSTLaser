@@ -19,7 +19,7 @@
  
 
 
-void plotLaserScan(string date = "03012021_1", int numEvents_Laser = 30, int data  = 0, string mod = "Mod03", string hv = "FST70", bool isSavePed = true, bool isApplyCMNCorr = true, float nFstHitsCut = 4.0, int numOfUsedTimeBins = 2, float nFstThresholdCut2 = 2.5, float nFstThresholdCut1 = 3.5)
+void plotLaserScan(string date = "01272021_1", int numEvents_Laser = 21, int data  = 0, string mod = "Mod03", string hv = "FST70", bool isSavePed = true, bool isApplyCMNCorr = true, float nFstHitsCut = 4.0, int numOfUsedTimeBins = 2, float nFstThresholdCut2 = 2.5, float nFstThresholdCut1 = 3.5)
 {
   gROOT->Reset();
 
