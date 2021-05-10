@@ -161,6 +161,7 @@ while (getline(logFile,positionHolder)) {
 
 cout << "Event Range " << evScanRange << endl;
 Double_t eventRatio = 0.0;
+Int_t sigThresh = 80;
 
 //Filling histograms from TTree loading event data from signal study
 
@@ -173,7 +174,7 @@ for(int i_vec = 1; i_vec < signalScan->size(); i_vec++) {
 	        if(j_laserRow == int(rowNumScan->at(i_vec))) {
               for(int j_laserCol = 0; j_laserCol < 8; j_laserCol++) {
 		        if(j_laserCol == int(colNumScan->at(i_vec))) {
-		          if ( signalScan->at(i_vec) > 80 ) {     // Signal threshold for the event to be plotted
+		          if ( signalScan->at(i_vec) > sigThresh ) {     // Signal threshold for the event to be plotted
         
 	                signalLaser_hits[j_sensor][k_event][j_laserCol][j_laserRow]->Fill(signalScan->at(i_vec));
                     noiseLaser_hits[j_sensor][k_event][j_laserCol][j_laserRow]->Fill(noiseScan->at(i_vec));
