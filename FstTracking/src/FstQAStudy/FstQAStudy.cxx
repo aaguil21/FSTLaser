@@ -20,6 +20,7 @@
 using namespace std;
 
 const int eventDivisions = 31;
+const int eventRangeSize = 1000;
 
 ClassImp(FstQAStudy)
 
@@ -319,13 +320,13 @@ void FstQAStudy::fillSignalQA(FstEvent *fstEvent,int event, std::vector<Int_t>& 
 
     //Fill Histograms used for Laser data taking with manual method
 	for (int j_event = 0; j_event < eventDivisions; j_event++) {
-	  if ( eventId >= (j_event+1)*1000 && eventId <= (j_event+2)*1000) {
+	  if ( eventId >= (j_event*eventRangeSize + 1000) && eventId <= ((j_event+1) * eventRangeSize + 1000) ) {
 
 	    h_mFstLaser_cmnNoiseSignal[sensorId][j_event]->Fill(column,row,cmnNoise);
-        h_mFstLaser_HitsSignal[sensorId][j_event]->Fill(column, row, signal);
-        h_mFstLaser_SignalRatio[sensorId][j_event]->Fill(column, row, signal/noise);
+            h_mFstLaser_HitsSignal[sensorId][j_event]->Fill(column, row, sigal);
+            h_mFstLaser_SignalRatio[sensorId][j_event]->Fill(column, row, signal/noise);
 	    h_mFstLaser_NoiseSignal[sensorId][j_event]->Fill(column, row, noise);
-        h_mFstLaser_Timebin[sensorId][j_event]->Fill(column, row, maxTb);
+            h_mFstLaser_Timebin[sensorId][j_event]->Fill(column, row, maxTb);
 	    h_mFstLaser_SigTime[sensorId][j_event]->Fill(maxTb, signal);
 	    h_mFstLaser_NoiseTime[sensorId][j_event]->Fill(maxTb, noise);
 
